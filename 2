@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>index</title>
+
+
+</head>
+
+
+<body>
+
+<div id="Navigation">
+<ul style="left: 8px; width: 649px;" class="Navigation">
+
+  <li><a href="index.html">Home</a></li>
+
+  <li><a href="css.html">CSS</a></li>
+
+  <li><a href="Javascript.html">Java script</a>
+    <ul>
+
+      <li><a href="1.html">&#1047;&#1072;&#1076;&#1072;&#1095;&#1072; 1</a></li>
+
+      <li><a href="2.html">&#1047;&#1072;&#1076;&#1072;&#1095;&#1072; 2</a></li>
+
+      <li><a href="3.html">&#1047;&#1072;&#1076;&#1072;&#1095;&#1072; 3</a></li>
+
+    </ul>
+
+  </li>
+
+  <li><a href="HTML.html">HTML</a></li>
+
+</ul>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<style>
+p0 {font-size: 4em; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; color: #ddcca3;}
+p1 {font-size: 4em; text-shadow: 4px 2px black; color: #ece2ca;}
+p2 {font-size: 4em; text-shadow: 0 2px 2px rgba(0, 0, 30, 0.6); color: rgba(102, 0, 102, 0.5);}
+a.button15 {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .2em 1.2em;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+}
+a.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+a.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+</style>
+
+  <br> <p0 id="p0">911</p0> 
+ <script>
+function er5() {
+var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
+var e=4;
+for (;e>=0;){
+l='i'+e;
+fruits[e]= document.getElementById(l).value;
+e--;}
+e=4;
+document.getElementById('p0').innerHTML =""
+for (;e>=0;){
+document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+( fruits[e] ); 
+e--;}}
+   
+</script>
+ <script>
+function er6() {
+  var g=0;
+var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
+var e=4;
+var taras;
+for (;e>=0;){
+l='i'+e;
+fruits[e]= document.getElementById(l).value;
+e--;}
+e=4;
+document.getElementById('p0').innerHTML =""
+for (;e>=0;){
+ 
+  if (fruits[e] <= 0){ 
+    g=g+Number(fruits[e]);}
+e--;}
+ document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g; 
+}
+  
+</script>
+<script>
+  function er7() {
+  var g=0;
+  var w=0;
+var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
+var e=4;
+var taras;
+for (;e>=0;){
+l='i'+e;
+fruits[e]= document.getElementById(l).value;
+e--;}
+e=4;
+document.getElementById('p0').innerHTML =""
+for (;e>=0;){
+ 
+  if (fruits[e] % 2 == 1){ 
+    w++;}
+e--;}
+ document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+w; 
+}
+</script>
+<script>
+  function er8 (){
+  var g=0;
+  var w=0;
+var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
+var e=4;
+var taras;
+for (;e>=0;){
+l='i'+e;
+fruits[e]= document.getElementById(l).value;
+e--;}
+e=4;
+document.getElementById('p0').innerHTML =""
+for (;e>=0;){
+ 
+  if (fruits[e] >0){
+    g=g+Number(fruits[e]);
+    w++;}
+e--;}
+ document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g/w; 
+}
+</script>
+
+<br>
+<br>
+
+
+<br>
+<input value="" id="i0" type="text">
+<br> 
+<input value="" id="i1" type="text">
+<br>
+<input value="" id="i2" type="text">
+<br>
+<input value="" id="i3" type="text">
+<br>
+<input value="" id="i4" type="text">
+
+
+<br>
+<br>
+<a href="#on" class="button15" onclick="er5()" >Array</a>
+<a href="#on" class="button15" onclick="er6()" >Array2</a>
+<a href="#on" class="button15" onclick="er7()" >Array3</a>
+<a href="#on" class="button15" onclick="er8()" >Array4</a>
+<br>
